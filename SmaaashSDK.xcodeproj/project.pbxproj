@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		7CC9D77921541E85001FF5A5 /* SmaaashSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC9D77721541E85001FF5A5 /* SmaaashSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC9D78521541EAB001FF5A5 /* ACRCloudDemo_Swift-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC9D78121541EAA001FF5A5 /* ACRCloudDemo_Swift-Bridging-Header.h */; };
+		7CC9D78621541EAB001FF5A5 /* ACRCloudRecognition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC9D78221541EAA001FF5A5 /* ACRCloudRecognition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC9D78721541EAB001FF5A5 /* ACRCloudConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC9D78321541EAA001FF5A5 /* ACRCloudConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC9D78821541EAB001FF5A5 /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9D78421541EAA001FF5A5 /* libACRCloud_IOS_SDK.a */; };
+		7CC9D78B21541F16001FF5A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9D78A21541F16001FF5A5 /* Security.framework */; };
+		7CC9D78D21541F21001FF5A5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9D78C21541F21001FF5A5 /* AudioToolbox.framework */; };
+		7CC9D78F21541F30001FF5A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9D78E21541F30001FF5A5 /* AVFoundation.framework */; };
+		7CC9D79121541F47001FF5A5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9D79021541F47001FF5A5 /* libc++.tbd */; };
+		7CC9D7932154200D001FF5A5 /* SmaaashSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC9D7922154200D001FF5A5 /* SmaaashSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7CC9D77421541E85001FF5A5 /* SmaaashSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmaaashSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC9D77721541E85001FF5A5 /* SmaaashSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmaaashSDK.h; sourceTree = "<group>"; };
 		7CC9D77821541E85001FF5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC9D78121541EAA001FF5A5 /* ACRCloudDemo_Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ACRCloudDemo_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CC9D78221541EAA001FF5A5 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
+		7CC9D78321541EAA001FF5A5 /* ACRCloudConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
+		7CC9D78421541EAA001FF5A5 /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = "<group>"; };
+		7CC9D78A21541F16001FF5A5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7CC9D78C21541F21001FF5A5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7CC9D78E21541F30001FF5A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7CC9D79021541F47001FF5A5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7CC9D7922154200D001FF5A5 /* SmaaashSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaaashSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +39,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC9D79121541F47001FF5A5 /* libc++.tbd in Frameworks */,
+				7CC9D78F21541F30001FF5A5 /* AVFoundation.framework in Frameworks */,
+				7CC9D78D21541F21001FF5A5 /* AudioToolbox.framework in Frameworks */,
+				7CC9D78B21541F16001FF5A5 /* Security.framework in Frameworks */,
+				7CC9D78821541EAB001FF5A5 /* libACRCloud_IOS_SDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +55,7 @@
 			children = (
 				7CC9D77621541E85001FF5A5 /* SmaaashSDK */,
 				7CC9D77521541E85001FF5A5 /* Products */,
+				7CC9D78921541F16001FF5A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +70,42 @@
 		7CC9D77621541E85001FF5A5 /* SmaaashSDK */ = {
 			isa = PBXGroup;
 			children = (
+				7CC9D77F21541E9E001FF5A5 /* ACR_Components */,
+				7CC9D78021541E9E001FF5A5 /* SDK */,
 				7CC9D77721541E85001FF5A5 /* SmaaashSDK.h */,
 				7CC9D77821541E85001FF5A5 /* Info.plist */,
 			);
 			path = SmaaashSDK;
+			sourceTree = "<group>";
+		};
+		7CC9D77F21541E9E001FF5A5 /* ACR_Components */ = {
+			isa = PBXGroup;
+			children = (
+				7CC9D78321541EAA001FF5A5 /* ACRCloudConfig.h */,
+				7CC9D78121541EAA001FF5A5 /* ACRCloudDemo_Swift-Bridging-Header.h */,
+				7CC9D78221541EAA001FF5A5 /* ACRCloudRecognition.h */,
+				7CC9D78421541EAA001FF5A5 /* libACRCloud_IOS_SDK.a */,
+			);
+			path = ACR_Components;
+			sourceTree = "<group>";
+		};
+		7CC9D78021541E9E001FF5A5 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				7CC9D7922154200D001FF5A5 /* SmaaashSDK.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		7CC9D78921541F16001FF5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CC9D79021541F47001FF5A5 /* libc++.tbd */,
+				7CC9D78E21541F30001FF5A5 /* AVFoundation.framework */,
+				7CC9D78C21541F21001FF5A5 /* AudioToolbox.framework */,
+				7CC9D78A21541F16001FF5A5 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +116,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CC9D77921541E85001FF5A5 /* SmaaashSDK.h in Headers */,
+				7CC9D78721541EAB001FF5A5 /* ACRCloudConfig.h in Headers */,
+				7CC9D78621541EAB001FF5A5 /* ACRCloudRecognition.h in Headers */,
+				7CC9D78521541EAB001FF5A5 /* ACRCloudDemo_Swift-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +154,7 @@
 				TargetAttributes = {
 					7CC9D77321541E85001FF5A5 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC9D7932154200D001FF5A5 /* SmaaashSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +314,7 @@
 		7CC9D77D21541E85001FF5A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -262,9 +324,14 @@
 				INFOPLIST_FILE = SmaaashSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmaaashSDK/ACR_Components",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smaaash.SmaaashSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -273,6 +340,7 @@
 		7CC9D77E21541E85001FF5A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -282,6 +350,10 @@
 				INFOPLIST_FILE = SmaaashSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmaaashSDK/ACR_Components",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smaaash.SmaaashSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

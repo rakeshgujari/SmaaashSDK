@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double SmaaashSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char SmaaashSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SmaaashSDK/PublicHeader.h>
-
-
+#import <SmaaashSDK/ACRCloudConfig.h>
+#import <SmaaashSDK/ACRCloudRecognition.h>
